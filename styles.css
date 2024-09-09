@@ -1,0 +1,263 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Section */
+#header {
+    background-image: url('../images/Optimus_Header.png'); /* Adjust the path according to your folder structure */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+
+
+.intro h1 {
+    font-size: 3rem;
+    color: black;
+    margin-right: 700px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.intro p {
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+    margin-right: 700px;
+}
+
+.btn {
+    background-color: rgb(158, 156, 156);
+    border: 3px solid rgb(15, 14, 14);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.8s;
+    color: black;
+    font-weight: bolder;
+    margin-right: 700px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+/* About Section */
+#about {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#about p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn2{
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(15, 14, 14);
+    border-radius: 2px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.8s;
+    color: black;
+    font-weight: bolder;
+}
+
+
+/* Skills Section */
+.section-king{
+    width: 100%;
+    background-color: rgb(61, 61, 61);
+    height: 700px;
+}
+
+
+.skills-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.skills-section h2 {
+    margin-top: 70px;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 4px #FFFFFF;
+    font-size: 50px;
+}
+
+.skill {
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.skill p {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: bolder;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #f3eaea;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 20px;
+}
+
+.progress {
+    height: 100%;
+    background-color: #a4a8a4; /* Adjust color for the bar */
+    border-radius: 20px;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 20px;
+    color: white;
+}
+
+
+/* Portfolio Section */
+#portfolio {
+    background-color: #f9f9f9;
+    color: #333;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#portfolio h2 {
+    font-size: 2.5rem;
+    margin-bottom: 100px;
+    text-align: left;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+}
+
+
+.portfolio-item1{
+    background-color: rgb(149, 145, 136);
+    padding: 50px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.portfolio-item2{
+    background-color: rgb(64, 64, 64);
+    padding: 50px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.portfolio-item3{
+    background-color: rgb(149, 145, 136);
+    padding: 50px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.portfolio-item4{
+    background-color: rgb(64, 64, 64);
+    padding: 50px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.portfolio-item5{
+    background-color: rgb(149, 145, 136);
+    padding: 50px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+
+.portfolio-item6{
+    background-color: rgb(64, 64, 64);
+    padding: 50px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+
+.portfolio-item:hover {
+    background-color: #bbb;
+}
+
+/* Footer Section */
+.footer {
+    background-color: rgb(21, 18, 13);
+    color: white;
+    padding: 20px 0;
+}
+
+.footer .contact-info {
+    margin-bottom: 20px;
+}
+
+.footer .btn {
+    border-color: rgb(244, 242, 242);
+    margin-left: 500px;
+    width: 150px;
+    border-radius: 1px;
+    background-color: rgb(5, 5, 5);
+    color: rgb(255, 255, 255);
+    transition: background-color 0.8s;
+    font-size: larger;
+}
